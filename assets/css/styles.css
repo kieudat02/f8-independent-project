@@ -28,42 +28,47 @@ a {
     top: -28px;
     z-index: 1;
 }
-.header .navbar {
+.header .body {
     display: flex;
     align-items: center;
     padding: 52px 0 8px;
 }
 
-.header .navbar ul {
-    display: flex;
+.nav {
     margin-left: auto;
-    padding: 8px 117px;
 }
 
-.header .navbar a {
+.nav ul {
+    display: flex;
+}
+
+.nav a {
+    padding: 8px 19.5px;
     font-weight: 400;
     font-size: 1.6rem;
     color: #2f3a3b;
 }
 
-.header .navbar ul a {
-    padding: 8px 19.5px;
-}
-
-.navbar a:hover,
-.header .navbar ul .active a {
+.nav a:hover,
+.nav li.active a {
     font-weight: 600;
     font-size: 1.6rem;
     color: #2f3a3b;
 }
 
-.navbar .actions a {
-    padding: 8px 24px;
+.header .actions {
+    margin-left: 177px;
 }
 
-.navbar .actions a:nth-of-type(2) {
-    width: 108px;
-    height: 48px;
+.header .action-link {
+    margin-right: 24px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #494949;
+}
+
+.header .actions .btn {
+    padding: 12px 24px;
     text-align: center;
     font-size: 1.6rem;
     font-weight: 600;
