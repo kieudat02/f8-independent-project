@@ -92,7 +92,8 @@ a {
     width: 39%;
 }
 
-.hero .desc.top {
+.hero .sub-title {
+    margin-top: 93px;
     font-size: 1.4rem;
     font-weight: 400;
     color: #767e7e;
@@ -337,4 +338,224 @@ a {
 .summary-2 .avatar span {
     font-size: 1rem;
     color: #fff;
+}
+/* Features */
+.features {
+    margin-top: 130px;
+}
+
+.features .sub-title {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #767e7e;
+}
+
+.features .heading {
+    width: 577px;
+    margin: 18px 0;
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 1.33;
+    color: #0d1111;
+}
+
+.features .desc {
+    width: 590px;
+    margin-bottom: 80px;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: normal;
+    color: #767e7e;
+}
+
+.features .list {
+    display: flex;
+    gap: 209px;
+}
+
+.features .list .icon-exterior {
+    width: 102px;
+    height: 106px;
+    background: #ffc147;
+    border-radius: 14px;
+}
+
+.features .list .item-2 .icon-exterior {
+    background: #ff947a;
+}
+
+.features .list .item-3 .icon-exterior {
+    background: #bf83ff;
+}
+
+.features .list .icon {
+    margin: 29px 27px;
+    width: 48px;
+    height: 48px;
+}
+
+.features .list .title {
+    margin-top: 26px;
+}
+
+.features .list .title a {
+    font-size: 2rem;
+    color: #0d1111;
+    font-weight: 600;
+}
+
+.features .list .desc {
+    margin-top: 16px;
+    width: 168px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.68;
+    color: #9da6a5;
+}
+
+.features .item-2 .desc {
+    width: 223px;
+}
+
+.features .item-3 .desc {
+    width: 224px;
+}
+
+/* Popular */
+.popular {
+    margin-top: 50px;
+}
+
+.popular .sub-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #767e7e;
+}
+
+.popular .heading {
+    margin-top: 18px;
+    font-size: 4.2rem;
+    font-weight: 700;
+    color: #0d1111;
+}
+
+.popular .row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 19px;
+}
+
+.popular .row .desc {
+    width: 525px;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.77;
+    color: #767e7e;
+}
+
+.popular .row .link {
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-decoration: underline;
+    color: #1ebfc1;
+}
+
+.popular .list {
+    position: relative;
+    display: flex;
+    gap: 47px;
+    margin-top: 79px;
+}
+
+.popular .item {
+    display: flex;
+    justify-content: center;
+}
+
+.popular .list .thumb {
+    width: 359px;
+    height: 393px;
+    border-radius: 8px;
+    opacity: 1;
+    object-fit: cover;
+}
+
+.popular .list .body {
+    margin-top: 322px;
+    padding: 18px 0 0 25px;
+    position: absolute;
+    width: 325px;
+    height: 195px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+}
+
+.popular .body .title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #0d1111;
+}
+
+.popular .body .price {
+    display: flex;
+    gap: 6px;
+    margin-top: 16px;
+}
+
+.popular .body .desc {
+    color: #9da6a5;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 6px;
+}
+
+.popular .body .price span {
+    color: #0d1111;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.popular .body .info {
+    margin-top: 18px;
+    margin-left: 16px;
+}
+
+.popular .info .label-1 {
+    position: relative;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #9da6a5;
+}
+
+.popular .info .label {
+    position: relative;
+    margin-left: 26px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #9da6a5;
+}
+
+.popular .info .label-1::before {
+    position: absolute;
+    top: 6px;
+    left: -16px;
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 999px;
+    background: #1ebfc1;
+}
+
+.popular .info .label::before {
+    position: absolute;
+    top: 6px;
+    left: -16px;
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 999px;
+    background: #1ebfc1;
 }
